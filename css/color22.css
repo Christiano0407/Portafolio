@@ -202,3 +202,8 @@ footer p {
     color: white;
     text-align: center;
 }
+
+.grid-container {
+    max-width: 980px;
+    margin: auto;
+}
