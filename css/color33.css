@@ -129,3 +129,68 @@ footer p {
 h1 {
     font-size: 35px;
 }
+
+.contact-main-container {
+    /* display: grid;
+    grid-auto-columns: 1fr 1fr; */
+    padding-bottom: 50px;
+    background-color: #ced1d0;
+    width: 100%;
+    min-height: 250px;
+    text-align: center;
+}
+
+.contact-main-container div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-main-container .contact-left, .contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+
+.contact-main-container  img {
+width: 100px;
+padding-right: 5px;
+}
+
+/* .contact-main-container  img {
+  width: 40px;
+  height: auto;
+  display: grid;
+}
+
+.contact-main-container p {
+    color: white;
+}
+.contact-rigt {
+    display: grid;
+    grid-column: 1;
+}
+
+.contact-rigt a {
+ display: grid;
+ font-size: 20px;
+
+}
+
+.contact-left{
+    display: grid;
+    grid-column: 2;
+}
+
+.contact-left a {
+    display: grid;
+    font-size: 20px;
+    
+} */
+
+
