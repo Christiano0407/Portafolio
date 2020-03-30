@@ -40,7 +40,7 @@ border: 1px solid violet;
 .container{
     display: grid;
     height: 100vh;
-    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    grid-template: 100px 1fr 150px / 1fr 200px;
     grid-gap: 10px;
     grid-template-areas: "header header"
     "main sidebar"
@@ -62,4 +62,5 @@ border: 1px solid violet;
 }
 .footer{
     grid-area: footer;
+    background-color: limegreen;
 }
