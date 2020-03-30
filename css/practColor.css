@@ -18,7 +18,9 @@ font-style: normal;
     display: grid;
  /*    grid-template-columns: 25% 50% 25%;
     grid-template-rows: 75% 50% 25%; */
-    grid-template: 100px 100px 100px/50% 25% 25%;
+  /*   grid-template: 100px 100px 100px / 100px 100px 100px; */
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr; /* repeat(4,1fr) */
+  /*   minmax(200px, 1fr) */
    /*  grid-column-gap:20px;
     grid-row-gap:10px; */
     grid-gap: 20px 20px;
