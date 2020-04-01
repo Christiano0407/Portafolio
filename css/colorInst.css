@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post {
+ display: block;
+ cursor: pointer;
+ position: relative;
+ width: 200px;
+}
+.post-image{
+    margin: 0;
+}
+.post-image img{
+    width: 100%;
+    vertical-align: top;
+    background-size: cover;
+    background-position: center;
+}
+.post-overlay{
+    background: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.post:hover .post-overlay{
+    display: flex;
+}
+.post-like,
+.post-comments{
+width: 80px;
+margin: 5px;
+font-weight: bold;
+text-align: center;
+display: inline-block;
+}
