@@ -7,11 +7,17 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+.post-list{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 293px));
+    justify-content: center;
+    grid-gap: 28px;
+}
 .post {
  display: block;
  cursor: pointer;
  position: relative;
- width: 200px;
+ /* width: 200px; */
 }
 .post-image{
     margin: 0;
