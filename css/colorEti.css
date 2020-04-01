@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    background: #fff;
+    margin: 0;
+}
+.hero{
+    background-color: #23475b;
+    color: #fff;
+    padding: 32px 15px;
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.form{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.472);
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #2a6381;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.form p {
+font-size: 20px;
+margin-bottom: 1em;
+color: #23475b;
+}
+
+.form button{
+    background: #2a6381;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 5px solid #23475b;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.badge img{
+    width: 150px;
+    height: 100px;
+}
