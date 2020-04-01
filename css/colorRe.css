@@ -18,6 +18,8 @@ body{
     /* grid-auto-columns: ;
     grid-auto-rows: ;
     grid-auto-flow: ; */
+    /* justify-items: start end center strech ( estira nuestro contenido);
+    align-items: start end center strech ; */
 }
 .item:nth-of-type(1){
  /*   grid-column: 1 / span 3;
